@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Mohora</title>
+    <link rel="stylesheet" href="homePage.css">
+</head>
+
+<body>
+    <div id="mainContainer">
+
+        <div class="leftPart">
+            <button id="btnName" title="Click to show name">Click to Show</button><br />
+            <button id="btnLabel" title="Click to show label">Click to Show</button><br />
+            <img src="assets/logo.png"><br />
+            <button onclick="hideTimer()" title="Press to Hide Digital Timer"
+                style="background-color: transparent;border: transparent;cursor: pointer;color: #00adff;">▼</button>
+            <div id="hide">
+                <h2 style="margin-top: 20px;font-size: 15px;">Digital Timer</h2>
+                <div class="containerTimer" style="font-size: 13px;">
+                    <span id="hour">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span><br /><br />
+                </div>
+                <div class="butoaneContainer">
+                    <button id="start" title="Start Timer">START</button>
+                    <button id="stop" title="Stop Timer">STOP</button>
+                    <button id="restart" title="Restart Timer">RESTART</button>
+                    <button id="save" title="Save Timer">SAVE</button>
+                </div>
+                <div class="timeSaver">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="rightPart">
+
+            <header>
+                <nav>
+                    <ul style="list-style-type: none;">
+                        <li><a href="https://github.com/AdrianM28"><img src="assets/git.png" title="GitHub"></a></li>
+                        <li><a href="https://ro.linkedin.com/in/adrian-mohora-83222820b"><img src="assets/link.png"
+                                    title="LinkedIn"></a></li>
+                        <li><a href="contactPage.html"><img src="assets/contact.png" title="Contact"></a></li>
+                        <li><a href="aboutMe.html"><img src="assets/aboutme.png" title="About Me"></a></li>
+                        <li><a href="myProjectsPage.html"><img src="assets/project.png" title="My Projects"></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <article id="mainArticle">
+                <h1 style="margin-top: 120px;">Welcome</h1><br />
+                <p style="font-size: 19px;">I build engaging Web Sites and Web Applications, using the latestprogramming
+                    languages and tehnologies. For more informations about me and my projects, please click on My
+                    projects & About Me Icon.</p>
+                <div style="font-size:x-small; margin-top: 80px; float: left;">
+                    <button id="btnPhoneNumber" title="Click here to see the Phone Number">Click for Phone
+                        Number</button><br />
+                    <button id="btnEmail" title="Click here to see the Email">Click for Email</button>
+                </div>
+            </article>
+
+        </div>
+
+    </div>
+    <script src="homePage.js"></script>
+</body>
+
+</html>

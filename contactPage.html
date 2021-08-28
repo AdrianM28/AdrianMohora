@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contactPage.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul style="list-style-type: none;">
+                <li><a href="https://github.com/AdrianM28"><img src="assets/git.png" title="GitHub"></a></li>
+                <li><a href="https://ro.linkedin.com/in/adrian-mohora-83222820b"><img src="assets/link.png"
+                            title="LinkedIn"></a></li>
+                <li><a href="index.html"><img src="assets/home.png" title="Home Page"></a></li>
+                <li><a href="aboutMe.html"><img src="assets/aboutme.png" title="About Me"></a></li>
+                <li><a href="myProjectsPage.html"><img src="assets/project.png" title="My Projects"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="containerForm">
+        <form>
+            <label>First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..."
+                style=" background-color: #00adff;border:0;" title="First Name"><br />
+
+            <label>Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..."
+                style=" background-color: #00adff;border:0;" title="Last Name"><br />
+
+            <label>Email</label>
+            <input type="email" id="lname" name="email" placeholder="Email..."
+                style=" background-color: #00adff;border:0;" title="Last Name"><br />
+
+            <label>City</label>
+            <select style=" background-color: #00adff;border:0;" title="Choose City">
+                <option value="Cluj">Cluj</option>
+                <option value="Timisoara">Timisoara</option>
+                <option value="Bucuresti">Bucuresti</option>
+            </select><br /><br />
+
+            <label>Subject</label><br />
+            <textarea placeholder="Write something.."
+                style=" background-color: #00adff;border:0;height: 250px;width:400px;margin-top: 10px;border-radius: 2%;"
+                title="Write a message"></textarea><br />
+        </form>
+        <button onclick="openWindow()"
+            style=" background-color: #00adff;border:0;height: 80px;width: 200px; border-radius: 3%;font-size: xx-large;font-family:fantasy ;"
+            title="Click here to submit !" id="btnSubmit">Submit</button>    
+                <div>
+                  <button class="add">Are you sure, you want to send this form?</button>
+                  <button class="update">Click here to Confirm !</button>
+                </div>
+    </div>
+    <script src="contactPage.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#btn-rock,
+#btn-paper,
+#btn-scissors,
+#start{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    width: 230px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+#score{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

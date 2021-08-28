@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="aboutMe.css">
+</head>
+
+<body>
+    <h1 id="h1AboutMe">About Me</h1>
+    <div id="mainContainer">
+
+        <div id="castleContainer">
+            <img src="assets/hunedoara.jpg" title="Castelul Huniazilor" class="containerIMG">
+            <p>I live in Hunedoara, Romania, the city is world known for his medieval castle "Castelul Corvinilor". The
+                city has about 89.000 citizens, beside he's a small city, Hunedoara is an attractiv place to see with
+                lots of attractions.</p><br />
+            <button onclick="hidePic()" id="btnHunedoara" title="More About">More...</button><br />
+        </div>
+
+        <div id="passionContainer">
+            <img src="assets/program.jpg" title="Castelul Huniazilor" class="containerIMG">
+            <p>My first contact with the computer was through video games, whih kept me in front of them for hours.</p><br />
+            <p>I first met programming at the beginning of high school through the C++ language, this programming language helped me to improve my analytical
+                thinking, and open my passion for programming.
+            </p><br />
+                <button onclick="hideBtn()" id="btnMe" title="More About">More...</button><br />
+        </div>
+
+        <div id="mapContainer">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44534.411053546064!2d22.87269775034555!3d45.7631595008852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474e8a547396159f%3A0x19f38ced3c35233b!2sHunedoara!5e0!3m2!1sro!2sro!4v1630012765653!5m2!1sro!2sro"
+                width="400" height="350" style="border:0;border-radius: 2%;" allowfullscreen="" loading="lazy"></iframe>
+            <p>My City Location</p>
+        </div>
+    
+        <button onclick="topFunction()" id="btnScrollUp" title="Go to top">▲</button>
+    </div>
+    
+    <footer>
+        <ul style="list-style-type: none;">
+            <li><a href="https://github.com/AdrianM28"><img src="assets/git.png" title="GitHub"></a></li>
+            <li><a href="https://ro.linkedin.com/in/adrian-mohora-83222820b"><img src="assets/link.png"
+                        title="LinkedIn"></a></li>
+            <li><a href="contactPage.html"><img src="assets/contact.png" title="Contact"></a></li>
+            <li><a href="index.html"><img src="assets/home.png" title="Home Page"></a></li>
+            <li><a href="myProjectsPage.html"><img src="assets/project.png" title="My Projects"></a></li>
+        </ul>
+    </footer>
+    <script src="aboutMe.js"></script>
+</body>
+
+</html>

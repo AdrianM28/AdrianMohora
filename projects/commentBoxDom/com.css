@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+ 
+#neww,
+#email{
+    color: rgb(11, 27, 27);
+    background-color: blanchedalmond;
+    width: 90%;
+    height:80px;
+    border-radius: 2%;
+}
+
+body{
+    background-color: cornsilk;
+}
+.add{
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px solid;
+    position: absolute;
+    top:30px;
+    bottom: 80%;
+    left: 90%;
+    cursor: pointer;
+   }
+
+#Dute{
+    background-color: red;   
+}

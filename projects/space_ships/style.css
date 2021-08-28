@@ -1,0 +1,22 @@
+*{
+    background-image: url("thumbnail.jpg");
+    margin: 0;
+}
+
+#start{
+    box-shadow:inset -26px 28px 20px -13px #000000;
+	background-color:transparent;
+	border-radius:42px;
+	border:12px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:28px;
+	font-weight:bold;
+	font-style:italic;
+	padding:18px 41px;
+	text-decoration:none;
+	text-shadow:4px 10px 7px #080f24;
+}
+

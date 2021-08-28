@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+header{
+    background-color: #00adff;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+header img{
+    height: 50px;
+    margin-right:60px;
+    margin-top: 10px;
+}
+
+.imgPosts{
+    height: 360px;
+    width: 600px;
+    border-radius: 2px;
+}
+ 
+.postContainer{
+    text-align:center ;
+}
+
+.miniPost{
+    display: inline-block;
+    width: 650px;
+    height: 700px;
+    padding: 5px;
+    margin-top: 100px;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 3px 2px 2px #40404b;
+}
+
+.buttonColor{
+    background-color: transparent;
+    border: transparent;
+    color: whitesmoke;
+    text-shadow: 3px 2px 2px #e3e3e9; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#changeBackGroundColor{
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 60px;
+    color: whitesmoke;
+    border: transparent;
+    text-shadow: 3px 2px 2px #e3e3e9;
+    cursor: pointer;
+}
