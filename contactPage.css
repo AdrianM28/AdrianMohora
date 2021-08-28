@@ -19,9 +19,7 @@ nav img{
 }
 
 body{
-    background-image: url("assets/BackGroundContact.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: royalblue;
 }
 
 header h1{
